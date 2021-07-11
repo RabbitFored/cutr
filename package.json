@@ -1,0 +1,30 @@
+{
+  "name": "cutr",
+  "version": "1.0.0",
+  "description": "make short links",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "mongoose": "^5.13.2",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cutr-org/cutr.git"
+  },
+  "keywords": [
+    "short"
+  ],
+  "author": "RabbitFoRed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cutr-org/cutr/issues"
+  },
+  "homepage": "https://github.com/cutr-org/cutr#readme"
+}
