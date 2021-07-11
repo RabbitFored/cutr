@@ -39,7 +39,8 @@ let al = await await Url.findOne({ urlId });
         });
 
         await url.save();
-        res.json(url);
+      const result = {"short":url['shortUrl'],"long":url['origUrl'],"date":url['date'],clicks : url['clicks']}
+res.json(result)
       }
     } catch (err) {
       console.log(err);
@@ -95,7 +96,8 @@ res.json(result)
         });
 
         await url.save();
-        res.json(url);
+        const result = {"short":url['shortUrl'],"long":url['origUrl'],"date":url['date'],clicks : url['clicks']}
+res.json(result)
       }
     } catch (err) {
       console.log(err);
