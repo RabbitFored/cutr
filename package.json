@@ -1,7 +1,7 @@
 {
   "name": "cutr",
   "version": "1.0.0",
-  "description": "make short links",
+  "description": "Open source URL shortener",
   "main": "index.js",
   "dependencies": {
     "dotenv": "^10.0.0",
